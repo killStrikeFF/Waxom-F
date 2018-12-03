@@ -291,3 +291,95 @@
     top: 990px;
     z-index: 12;
 }
+
+/* project section */
+
+#project {
+    margin-top: 20px;
+}
+
+.project {
+    &-headline {
+        text-align: center;
+        margin-top: 55px;
+        h2 {
+            .ral-seb;
+            font-size: 30px;
+            color: #555555;
+        }
+        p {
+            margin-top: 15px;
+            color: #9b9b9b;
+            .mon-lgt;
+            font-size: 16px;
+        }
+    }
+    &-nav {
+        ul {
+            li {}
+        }
+    }
+    &-content {
+        padding-top: 30px;
+        &:hover {
+            #mask_project {
+                position: absolute;
+                width: 371px;
+                height: 251px;
+                background-image: -moz-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+                background-image: -webkit-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+                background-image: -ms-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+                z-index: 169;
+            }
+            img {
+                z-index: 10;
+            }
+        }
+        img {
+            width: 371px;
+            height: 251px;
+            z-index: 10;
+        }
+        h5 {
+            margin-left: 35px;
+            margin-top: 10px;
+            .ral-med;
+            font-size: 20px;
+            color: #c7b299;
+        }
+        p {
+            margin-left: 35px;
+            .mon-lgt;
+            font-size: 14px;
+            color: #d1d1d1;
+        }
+    }
+    &-btn {
+        padding: 70px;
+        text-align: center;
+        button {
+            margin-top: 5px;
+            width: 170px;
+            height: 50px;
+            background-color: #998675;
+            text-transform: uppercase;
+            .ral-exb;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}
+
+#mask_project {
+    background-image: -moz-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(33, 27, 25) 0%, rgb(78, 52, 39) 100%);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #998675;
+}
