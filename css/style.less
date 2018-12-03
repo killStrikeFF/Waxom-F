@@ -162,12 +162,132 @@
 }
 
 /* ideas section */
+
 #ideas {
+    position: relative;
     width: 100%;
     background-color: #fff;
 }
+
 .ideas {
     &-content {
-        background-color: #fff;
+        margin-top: 65px;
+        text-align: center;
+        &:hover {
+            color: #c7b299;
+            transition: 0.5s;
+            h3 {
+                color: #c7b299;
+                transition: 0.5s;
+            }
+            p {
+                color: #9b9b9b;
+            }
+            .ideas-content-line {
+                background-color: #c7b299;
+            }
+        }
+        i {
+            font-size: 35px;
+        }
+        h3 {
+            color: #555555;
+            font-size: 22px;
+            .ral-seb;
+            margin-top: 20px;
+        }
+        p {
+            color: #9b9b9b;
+            .mon-lgt;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        &-line {
+            background-color: #fff;
+            display: inline-block;
+            width: 70px;
+            height: 3px;
+            transition: 0.5s;
+        }
     }
+    &-sketch {
+        text-align: center;
+        margin-top: 100px;
+        h2 {
+            .ral-seb;
+            font-size: 30px;
+            color: #555555;
+        }
+        p {
+            margin-top: 15px;
+            color: #9b9b9b;
+            .mon-lgt;
+            font-size: 16px;
+        }
+        &-img {
+            &-1 {
+                position: absolute;
+                left: 185px;
+                top: 150px;
+                width: 770px;
+                height: 482px;
+                z-index: 110
+            }
+            &-2 {
+                position: absolute;
+                left: -45px;
+                top: 232px;
+                width: 770px;
+                height: 400px;
+                z-index: 108;
+            }
+            &-3 {
+                position: absolute;
+                left: 415px;
+                top: 232px;
+                width: 770px;
+                height: 400px;
+                z-index: 109;
+            }
+        }
+    }
+    &-footer {
+        position: relative;
+        margin-top: 565px;
+        z-index: 19;
+        h2 {
+            .ral-reg;
+            font-size: 28px;
+            color: #fff;
+            span {
+                color: #c7b299;
+            }
+        }
+        p {
+            color: #615855;
+            .mon-lgt;
+            font-size: 18px;
+        }
+        button {
+            margin-top: 5px;
+            width: 170px;
+            height: 50px;
+            background-color: #998675;
+            text-transform: uppercase;
+            .ral-exb;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}
+
+.img-bg-low-footer {
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 990px;
+    z-index: 12;
 }

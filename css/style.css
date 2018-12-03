@@ -143,9 +143,131 @@
 }
 /* ideas section */
 #ideas {
+  position: relative;
   width: 100%;
   background-color: #fff;
 }
 .ideas-content {
+  margin-top: 65px;
+  text-align: center;
+}
+.ideas-content:hover {
+  color: #c7b299;
+  transition: 0.5s;
+}
+.ideas-content:hover h3 {
+  color: #c7b299;
+  transition: 0.5s;
+}
+.ideas-content:hover p {
+  color: #9b9b9b;
+}
+.ideas-content:hover .ideas-content-line {
+  background-color: #c7b299;
+}
+.ideas-content i {
+  font-size: 35px;
+}
+.ideas-content h3 {
+  color: #555555;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.ideas-content p {
+  color: #9b9b9b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.ideas-content-line {
   background-color: #fff;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  transition: 0.5s;
+}
+.ideas-sketch {
+  text-align: center;
+  margin-top: 100px;
+}
+.ideas-sketch h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #555555;
+}
+.ideas-sketch p {
+  margin-top: 15px;
+  color: #9b9b9b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.ideas-sketch-img-1 {
+  position: absolute;
+  left: 185px;
+  top: 150px;
+  width: 770px;
+  height: 482px;
+  z-index: 110;
+}
+.ideas-sketch-img-2 {
+  position: absolute;
+  left: -45px;
+  top: 232px;
+  width: 770px;
+  height: 400px;
+  z-index: 108;
+}
+.ideas-sketch-img-3 {
+  position: absolute;
+  left: 415px;
+  top: 232px;
+  width: 770px;
+  height: 400px;
+  z-index: 109;
+}
+.ideas-footer {
+  position: relative;
+  margin-top: 565px;
+  z-index: 19;
+}
+.ideas-footer h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+}
+.ideas-footer h2 span {
+  color: #c7b299;
+}
+.ideas-footer p {
+  color: #615855;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.ideas-footer button {
+  margin-top: 5px;
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.img-bg-low-footer {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 990px;
+  z-index: 12;
 }
